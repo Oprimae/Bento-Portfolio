@@ -33,3 +33,6 @@ The responsive behavior ensures that content remains accessible and visually coh
 The project follows a simple and clear file organization:
 - HTML for structure
 - CSS for layout and styling
+
+## 📸 Screenshot
+![Portfolio Screenshot](https://github.com/ashbolic/Bento-Portfolio/blob/main/bento-portfolio.jpg)
