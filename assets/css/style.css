@@ -28,7 +28,7 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   padding: calc(var(--gap) * 2) 20%;
   gap: var(--gap);
   background: var(--primary-bg);
@@ -143,4 +143,31 @@ a:hover {
   font-weight: 600;
   color: var(--headline);
   text-shadow: 1px 1px 2px #000;
+}
+@media only screen and (max-width: 1200px) {
+  body { padding: var(--gap) 10%; }
+  .card .userLogo { width: 96px; height: 96px; }
+}
+@media only screen and (max-width: 768px) {
+  :root { --gap: 15px; }
+  body { padding: var(--gap) 5%; }
+  .user { grid-column: span 6; }
+  .menu { grid-column: span 6; }
+  .social { grid-column: span 6; }
+  .about { grid-column: span 6; grid-row: span 6; }
+  .projects { grid-column: span 6; grid-row: span 6; }
+  .video { grid-column: span 6; }
+  .github { grid-column: span 6; }
+}
+@media only screen and (max-width: 480px) {
+  :root { --gap: 5px; }
+  body { padding: var(--gap); }
+  .user { grid-column: span 12; }
+  .menu { grid-column: span 12; }
+  .social { grid-column: span 6; }
+  .about { grid-column: span 6; grid-row: span 6; }
+  .projects { grid-column: span 6; grid-row: span 9; }
+  .video { grid-column: span 6; }
+  .github { grid-column: span 6; }
+  .card .userLogo { width: 96px; height: 96px; }
 }
