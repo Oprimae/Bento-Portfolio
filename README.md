@@ -35,4 +35,4 @@ The project follows a simple and clear file organization:
 - CSS for layout and styling
 
 ## 📸 Screenshot
-![Portfolio Screenshot](https://github.com/ashbolic/Bento-Portfolio/blob/main/bento-portfolio.jpg)
+![Portfolio Screenshot](https://github.com/Oprimae/Bento-Portfolio/blob/main/bento-portfolio.jpg)
